@@ -1,0 +1,33 @@
+Installing dependancies :
+  Node.Js 
+    npm install 
+  Truffle 
+    npm install -g truffle 
+  Gnache 
+    https://www.trufflesuite.com/ganache
+  MetaMask 
+    Install at the Chrome Web Store 
+  Package Control 
+    Preferances > Package Control > Install Package > 'Ethereum'
+    
+    
+Creating Smart Contract 
+  Import Project Folder Into text editor create a new file titled 'Election.sol'
+  and type in the following:
+    pragma solidity ^0.5.8;
+
+    contract Election {
+      //Store candidate 
+
+      //Read candidate 
+      string public candidate;
+
+      // Constructor 
+      function Constructor() public {
+        candidate = "Candidate 1";
+      }
+
+    }
+    
+    Above code is creating the smart contract.
+
